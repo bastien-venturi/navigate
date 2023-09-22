@@ -20,18 +20,12 @@ function changetitle1() {
 
 function changetitle2() {
     let titre1 = section1.children[1];
-    let titre2 = section2.children[2];
+    let titre2 = section2.children[0];
     section2.insertBefore(titre1, titre2);
 }
 
 
-
-function removetitle2({
-    let sectionrem = main.children[2];
-    main.removeChild(main.section2);
-});
-
-
-
 changetitle1(section1)
 changetitle2(section2)
+
+
